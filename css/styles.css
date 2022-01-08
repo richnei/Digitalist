@@ -9,7 +9,7 @@
 /* 1. Container
 /* 2. Menu
 /* 3. Header
-/* 4. Quem somos
+/* 4. Sobre nós
 /* 5. Nossos cursos
 /* 6. Planos
 /* 7. Vantagens
@@ -57,6 +57,22 @@ hr {
   margin: 20px auto;
 }
 
+p {
+  line-height: 21.82px;
+  padding: 0 10px;
+}
+
+.section__titulo {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /**********************************/
 /* 2. Menu
 /**********************************/
@@ -100,8 +116,28 @@ hr {
 }
 
 /**********************************/
-/* 4. Quem somos
+/* 4. Sobre nós
 /**********************************/
+
+.sobre {
+  max-width: 960px;
+  margin: auto;
+}
+
+.sobre-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre-c__texto {
+  flex: 6 1 160px;
+}
+
+.sobre-c__img {
+  flex: 1 1 350px;
+}
 
 /**********************************/
 /* 5. Nossos cursos
